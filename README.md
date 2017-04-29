@@ -41,7 +41,7 @@ error Command failed with exit code 1.
 
 ## Expected Results
 
-A quickfix would be the add `console.log(err)` @ [`lib/runner.js:82`](https://github.com/vandium-io/lambda-tester/blob/master/lib/runner.js#L82:L83).
+A quickfix would be the add `console.log(err)` @ [`lib/runner.js:82`](https://github.com/vandium-io/lambda-tester/blob/f102e436fd25962e020f36acfa4c6e552d2d315d/lib/runner.js#L82:L83).
 
 ```
 yarn test v0.23.2
