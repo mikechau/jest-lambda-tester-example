@@ -1,0 +1,27 @@
+{
+  "presets": [
+    ["es2015", { "modules": false, "loose": true }]
+  ],
+  "plugins": [
+    "transform-object-rest-spread",
+    "transform-async-to-generator",
+    "transform-runtime"
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        ["es2015", { "loose": true }]
+      ],
+      "plugins": [
+        "transform-object-rest-spread",
+        "transform-async-to-generator",
+        "transform-runtime",
+        ["module-resolver", {
+          "alias": {
+            "src": "./src"
+          }
+        }]
+      ]
+    }
+  }
+}
